@@ -1,8 +1,8 @@
 # Launching Gitlab with docker
-## Follow the steps mentioned in install.txt
+### Follow the steps mentioned in install.txt
 Run `docker-compose up -d` to launch docker instance
 `docker ps` to view running containers
 
 
-# To view logs
+### to view logs
 `docker logs --tail 5 --follow --timestamps <container_name>`
